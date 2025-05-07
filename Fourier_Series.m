@@ -6,6 +6,7 @@ original = f(t);
 a0 = 0;
 f_series = a0 / 2 * ones(size(t));  
 
+
 figure;
 plot(t, original, 'LineWidth', 1);
 axis([0 7 -1.5 1.5]);
@@ -13,7 +14,6 @@ xlabel('Time (s)');
 ylabel('Amplitude');
 title('Original Wave');
 grid on;
-
 
 figure;
 hold on;
